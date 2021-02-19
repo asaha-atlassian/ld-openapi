@@ -13,7 +13,7 @@
       "name": "Apache 2.0",
       "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "version": "5.0.0"
+    "version": "5.0.1"
   },
   "host": "app.launchdarkly.com",
   "basePath": "/api/v2",
@@ -1538,7 +1538,7 @@
           "200": {
             "description": "User response.",
             "schema": {
-              "$ref": "#/definitions/User"
+              "$ref": "#/definitions/UserRecord"
             }
           },
           "401": {
@@ -1549,7 +1549,7 @@
           }
         },
         "tags": [
-          "UserRecord"
+          "Users"
         ]
       },
       "delete": {
